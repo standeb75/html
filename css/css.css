@@ -8,3 +8,11 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
+
+#wrapper {
+    background-color: var(--main-bg-color);
+}
+
+.section {
+    padding: var(--main-padding);
+}
