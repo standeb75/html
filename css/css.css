@@ -11,8 +11,31 @@ body {
 
 #wrapper {
     background-color: var(--main-bg-color);
+    display: grid;
+    grid-template-areas: 'head head head head'
+                         'side main main main'
+                         'side main main main'
+                         'footer footer footer footer';
+
 }
 
 .section {
     padding: var(--main-padding);
+    min-height: 284px;
+}
+
+.head {
+    grid-area: head;
+}
+
+.side {
+    grid-area: side;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
 }
