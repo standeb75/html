@@ -1,0 +1,10 @@
+:root {
+    --main-bg-color: #161616;
+    --main-txt-color: rgba(185, 185, 185, 1);
+    --main-padding: 1rem;
+    --main-margin: 1rem;
+}
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
