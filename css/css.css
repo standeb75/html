@@ -44,7 +44,7 @@ h1 {
 
 .head {
     grid-area: head;
-    background: url('https://kraina.org.pl/storage/2020/04/widok-z-góry-Poniatowa-1-300x214.jpg');
+    background: url('https://kraina.org.pl/storage/2020/04/widok-z-g%C3%B3ry-Poniatowa-1.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
