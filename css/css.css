@@ -63,7 +63,7 @@ h1 {
 
 .side,.main,.footer {
     background: var(--section-bg-color);
-    box-shadow: 1px 1px 3px #fff;
+    box-shadow: 1px 1px 3px var(--section-txt-color);
     color: var(--section-txt-color);
 }
 
