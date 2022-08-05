@@ -3,6 +3,7 @@
     --main-bg-color: #161616;
     --section-bg-color: #22222286;
     --main-txt-color: rgb(212, 212, 212);
+    --section-txt-color: #fff;
     --main-padding: 1rem;
     --main-margin: 1rem;
 }
@@ -63,6 +64,7 @@ h1 {
 .side,.main,.footer {
     background: var(--section-bg-color);
     box-shadow: 1px 1px 3px #fff;
+    color: var(--section-txt-color);
 }
 
 .side {
